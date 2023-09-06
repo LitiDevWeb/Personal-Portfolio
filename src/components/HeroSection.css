@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.hero__heading {
+  margin-left: 120px;
+}
+
+.hero__img {
+  margin-right: 100px;
+  scale: 1.2;
+}
+
+.enlarge-image {
+  transition: transform 0.2s; /* Animation de transition fluide */
+}
+
+.enlarge-image:hover {
+  transform: scale(1.2); /* Agrandir l'image de 20% au survol */
+}
+
+h1 {
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+h1 span {
+  color: aqua;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 40px;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 50;
+}
+
+.hero__btn button {
+  background-color: rgba(0, 255, 255, 0.801);
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: #1f9ab5;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero__btn button:hover {
+  background-color: rgb(87, 163, 163);
+}
+
+.btn-hire {
+  text-decoration: none;
+  color: aliceblue;
+}
