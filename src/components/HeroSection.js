@@ -13,6 +13,7 @@ function HeroSection() {
             </h2>
             <h3>Web Developer & Designer </h3>
             <p>bringing digital versions to life</p>
+
             <div className="hero__btn">
               <button>
                 <Link to="/contact" className="btn-hire">

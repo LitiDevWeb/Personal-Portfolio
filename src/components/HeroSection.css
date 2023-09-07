@@ -1,23 +1,27 @@
 .container {
   display: flex;
+  padding-top: 50px;
   justify-content: space-between;
   align-items: center;
-  padding: 100px;
-  padding-top: 0px;
-  margin-top: 0px;
+  margin-left: 100px;
 }
 
 .hero__heading {
   margin-left: 120px;
+  padding-bottom: 120px;
 }
 
 .hero__img {
-  margin-right: 100px;
-  scale: 1.2;
+  margin-right: 250px;
+  scale: 1.4;
+  /* background-color: transparent;
+  border: 2px solid rgb(59, 135, 135); 
+  border-radius: 200%; 
+  background-size: 40px; */
 }
 
 .enlarge-image {
-  transition: transform 0.2s; /* Animation de transition fluide */
+  transition: transform 0.5s; /* Animation de transition fluide */
 }
 
 .enlarge-image:hover {
