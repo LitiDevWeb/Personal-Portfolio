@@ -5,6 +5,7 @@ import linkedin from "../assets/images/linkedin.png";
 import mail from "../assets/images/mail.png";
 import github from "../assets/images/github.png";
 import "./NavBar.css";
+import Button from "../components/Button";
 
 function NavBar() {
   return (
@@ -31,22 +32,21 @@ function NavBar() {
         </nav>
 
         <div className="btn">
-          <div className="contact-btn">
-            <button>
-              <Link to="/contact" className="nav-item-btn">
-                Contact me
-              </Link>
-            </button>
-          </div>
+          <Button
+            btnLink="../contact"
+            btnText="Contact me"
+            customClass="contact-button"
+          />
+
           <div className="contact-icons">
             <a href="https://www.linkedin.com/in/litissia-hadjout/">
-              <img src={linkedin} width={45}></img>
+              <img src={linkedin} width={50}></img>
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox">
-              <img src={mail} width={45}></img>
+              <img src={mail} width={50}></img>
             </a>
             <a href="https://github.com/LitiDevWeb">
-              <img src={github} width={45}></img>
+              <img src={github} width={50}></img>
             </a>
           </div>
         </div>

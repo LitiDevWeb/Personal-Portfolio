@@ -20,7 +20,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 120px;
 }
 
 ul {
@@ -89,6 +89,7 @@ ul {
 .contact-icons {
   display: flex;
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 6px;
   size: 20px;
 }

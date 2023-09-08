@@ -1,7 +1,12 @@
 import React from "react";
+import ServiceSection from "../components/ServiceSection";
 
 function Services() {
-  return <h1>Services Section Welcomes you</h1>;
+  return (
+    <>
+      <ServiceSection />
+    </>
+  );
 }
 
 export default Services;

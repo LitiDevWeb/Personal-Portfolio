@@ -1,7 +1,8 @@
 import React from "react";
 import HeroImg from "../assets/images/HeroImg.png";
 import "./HeroSection.css";
-import { Link } from "react-router-dom";
+import Button from "./Button";
+
 function HeroSection() {
   return (
     <div>
@@ -14,13 +15,11 @@ function HeroSection() {
             <h3>Web Developer & Designer </h3>
             <p>bringing digital versions to life</p>
 
-            <div className="hero__btn">
-              <button>
-                <Link to="/contact" className="btn-hire">
-                  Hire me
-                </Link>
-              </button>
-            </div>
+            <Button
+              btnLink="../contact"
+              btnText="Hire me"
+              customClass="hire-button"
+            />
           </h1>
         </div>
         <div className="hero__img">

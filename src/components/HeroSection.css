@@ -12,7 +12,7 @@
 }
 
 .hero__img {
-  margin-right: 250px;
+  margin-right: 310px;
   scale: 1.4;
   /* background-color: transparent;
   border: 2px solid rgb(59, 135, 135); 
@@ -67,9 +67,4 @@ p {
 
 .hero__btn button:hover {
   background-color: rgb(87, 163, 163);
-}
-
-.btn-hire {
-  text-decoration: none;
-  color: aliceblue;
 }
