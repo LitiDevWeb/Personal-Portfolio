@@ -1,0 +1,22 @@
+.container-service {
+  text-align: center;
+}
+
+.serviceItem__icon img {
+  width: 150px;
+  background-color: transparent;
+  border-top-left-radius: 2px solid blue;
+}
+
+.serviceItem__title {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+.para {
+  margin-top: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+}

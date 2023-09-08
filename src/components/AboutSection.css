@@ -1,0 +1,23 @@
+.container-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.aboutsection_left .img {
+  width: 450px;
+}
+
+.text p {
+  color: azure;
+  font-size: 30px;
+  font-weight: 30;
+}
+
+.aboutsection_buttons {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}

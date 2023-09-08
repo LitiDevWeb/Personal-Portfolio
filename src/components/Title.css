@@ -1,0 +1,11 @@
+.title {
+  color: #aff0ec;
+  text-align: start;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.service-title {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: xx-large;
+}

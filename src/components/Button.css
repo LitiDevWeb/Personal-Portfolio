@@ -1,0 +1,53 @@
+.button {
+  background-color: #aff0ec;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: rgb(9, 62, 55);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.download-button {
+  background-color: #aff0ecf0;
+}
+
+.download-button:hover {
+  background-color: #1f9ab5;
+}
+
+.certification-button {
+  background-color: transparent;
+  border: 2px solid #1f9ab5;
+  color: aliceblue;
+}
+
+.certification-button:hover {
+  border: 2px solid #16e8dac5;
+}
+
+.hire-button {
+  background-color: #1f9ab5;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.hire-button:hover {
+  background-color: rgba(0, 255, 255, 0.839);
+}
+
+.contact-button {
+  background-color: #1f9ab5;
+  color: aliceblue;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.contact-button:hover {
+  background-color: rgba(0, 255, 255, 0.839);
+}
