@@ -11,7 +11,7 @@ function ServiceSectionItem({
     <>
       <div className="container-service">
         <div className="serviceItem__icon">
-          <img src={icon} alt="Service Icon" />
+          <img src={icon} alt="Service Icon" className="enlarge-image" />
         </div>
         <div className="serviceItem__title">{title}</div>
         <PText className="para">{description}</PText>

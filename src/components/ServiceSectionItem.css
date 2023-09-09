@@ -6,6 +6,8 @@
   width: 150px;
   background-color: transparent;
   border-top-left-radius: 2px solid blue;
+  /* box-shadow: 0 0px 15px 5px rgba(251, 243, 243, 0.2); */
+  /* box-shadow: 0 10px 20px 0 rgba(251, 243, 243, 0.2); */
 }
 
 .serviceItem__title {
@@ -13,6 +15,7 @@
   color: white;
   font-size: xx-large;
   font-weight: lighter;
+  margin-top: 10px;
 }
 
 .para {

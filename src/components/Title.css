@@ -6,6 +6,12 @@
 
 .service-title {
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 15px;
+  font-size: xx-large;
+}
+
+.project-title {
+  padding-top: 30px;
+  padding-left: 40px;
   font-size: xx-large;
 }

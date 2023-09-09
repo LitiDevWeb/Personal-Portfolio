@@ -31,11 +31,10 @@ function AboutSection() {
             </PText>
           </div>
           <div className="aboutsection_buttons">
-            <Button
-              btnLink="../projects"
-              btnText="Download CV"
-              customClass="download-button"
-            />
+            <a href={process.env.PUBLIC_URL + "/pdf/CV.pdf"} download>
+              <Button btnText="Download CV" customClass="download-button" />
+            </a>
+
             <Button
               btnLink="../certifications"
               btnText="Certifications"

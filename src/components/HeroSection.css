@@ -1,9 +1,9 @@
 .container {
   display: flex;
-  padding-top: 50px;
+  padding-top: 120px;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .hero__heading {
@@ -37,9 +37,10 @@ h1 span {
   color: aqua;
 }
 
-h2 {
+.h2-home {
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
+  color: white;
 }
 
 h3 {
