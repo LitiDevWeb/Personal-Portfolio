@@ -1,0 +1,44 @@
+.h2-product {
+  margin: 1rem auto 1rem;
+  color: rgba(127, 255, 212, 0.894);
+  font-weight: 100;
+}
+
+.p-product {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.product--image {
+  width: 100%;
+  height: 13em;
+  object-fit: cover;
+}
+
+.card {
+  margin-top: 40px;
+  margin-left: 50px;
+  box-shadow: 0 10px 20px 0 rgba(251, 243, 243, 0.2);
+  max-width: 450px;
+  text-align: center;
+  font-family: arial;
+}
+
+.card button a {
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 1;
+  font-weight: 600;
+}
