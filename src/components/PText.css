@@ -4,3 +4,8 @@ p {
   font-size: 30px;
   font-weight: 30;
 }
+
+.p-map {
+  font-weight: 600;
+  color: rgba(241, 225, 225, 0.926);
+}

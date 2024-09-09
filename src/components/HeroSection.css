@@ -13,11 +13,8 @@
 
 .hero__img {
   margin-right: 310px;
-  scale: 1.4;
-  /* background-color: transparent;
-  border: 2px solid rgb(59, 135, 135); 
-  border-radius: 200%; 
-  background-size: 40px; */
+  width: 350px;
+  scale: 1;
 }
 
 .enlarge-image {
@@ -31,6 +28,10 @@
 h1 {
   color: whitesmoke;
   font-weight: 300;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1 span {

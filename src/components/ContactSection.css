@@ -1,0 +1,9 @@
+.flex-cont {
+  display: flex;
+  gap: 13rem;
+}
+
+.left {
+  padding-top: 23px;
+  padding-left: 20px;
+}

@@ -1,0 +1,29 @@
+.form-group {
+  width: 100%;
+  margin-bottom: 2rem; /* Réduisez la marge inférieure */
+}
+
+label {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.916);
+  font-family: "Courier New", Courier, monospace;
+}
+
+input,
+textarea {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(199, 235, 235, 0.071);
+  width: 150%;
+  height: 40px;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255); /* Texte transparent */
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}

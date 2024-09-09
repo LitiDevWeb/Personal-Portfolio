@@ -1,10 +1,13 @@
 import React from "react";
+import Title from "../components/Title";
+import Gallery from "../components/FilterMenu/Gallery";
 
 function Certifications() {
   return (
-    <div>
-      <h1>Congratulations!</h1>
-    </div>
+    <>
+      <Title heading="Certifications()" customClass="project-title" />
+      <Gallery />
+    </>
   );
 }
 

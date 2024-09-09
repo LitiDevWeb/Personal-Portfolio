@@ -9,9 +9,7 @@ function HeroSection() {
       <div className="container">
         <div className="column">
           <h1 className="hero__heading">
-            <h2 className="h2-home">
-              Hi, I'm <span> &lt; Litissia Hadjout /&gt;</span>
-            </h2>
+            <h2 className="h2-home">Hi, I'm &lt; Litissia Hadjout /&gt;</h2>
             <h3>Web Developer & Designer </h3>
             <p>bringing digital versions to life</p>
 

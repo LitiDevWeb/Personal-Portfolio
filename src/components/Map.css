@@ -1,0 +1,30 @@
+.container-map {
+  background: url("../assets/MapImg.png");
+  background-repeat: no-repeat center cover;
+  min-height: 400px;
+  position: relative;
+}
+
+.map__card {
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.431);
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.map__card__heading {
+  font-size: 35px;
+  color: rgb(232, 211, 211);
+  font-family: "Courier New", Courier, monospace;
+  padding: 20;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 25px;
+}
